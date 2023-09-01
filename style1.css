@@ -1,0 +1,224 @@
+*
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.container{
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+.container .content{
+    text-align: center;
+}
+.container .content h3{
+    font-size: 30px;
+}
+
+/*registerform*/
+
+.form_container{
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: grey;
+}
+.form_container .content form{
+    width: 800px;
+    padding: 70px;
+    font-size: 5px;
+}
+.form_container form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px #007bff;
+    background: whitesmoke;
+    text-align: center;
+    width: 500px;
+}
+.form_container form h3,
+.form_container form h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+.form_container form input,
+.form_container form select{
+    width: 400px;
+    padding: 10px 15px;
+    font-size: 15px;
+    margin: 8px 0;
+    color: black;
+    background: rgb(243, 245, 247);
+    border: 2px solid #007bff;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.form_container .content form input,
+.form_container .content form select{
+    width: 600px;
+    padding: 5px;
+    font-size: 20px;
+    margin: 8px 0;
+    color: black;
+    background: rgb(243, 245, 247);
+    border: 2px solid #007bff;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.form_container form label{
+    margin-left: -290px;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    text-transform: uppercase;
+}
+.form_container form .form_btn,
+.form_container .content form .form_btn{
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    width: 150px;
+    background-color:grey;
+    color: black;
+    margin: 5px 5px;
+    font-weight: bold;
+}
+.form_container .content form label{
+margin-left: 0;
+}
+.form_container form .form_btn:hover,
+.form_container .content form .form_btn:hover{
+    background-color: transparent;
+    color:#007bff;
+
+}
+.form_container form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color:#007bff;
+}
+.form_container form p a{
+      color: #007bff;
+      text-transform: uppercase;
+      font-weight: 400;
+}
+.form_container form p a:hover{
+color:grey;
+}
+.message{
+  border-radius: 5px;
+  color: black;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.message:hover{
+  color: #007bff;
+}
+
+/*end_registerform*/
+.hero_area {
+    padding: 0 45px;
+  }
+  
+  
+  #navbarSupportedContent {
+    background-color: white;
+    justify-content: center;
+    right: 100%;
+    left: 100%;
+      display: flex;
+      align-items: center;
+    font-weight: 501;
+    list-style: none;
+    display: inline;
+    border-radius: 5px;
+    padding: 5px;
+    width: 107.5%;
+
+  }
+  
+  
+  #navbarSupportedContent.innerpage_navbar .nav-item.active .nav-link {
+    background-color:#007bff;
+  }
+  
+  #navbarSupportedContent .navbar-nav .nav-link {
+    padding: 5px 55px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 30px;
+  }
+  
+  #navbarSupportedContent .nav-item.active .nav-link {
+    background-color: white;
+  }
+  
+  
+  .navbar-brand {
+    margin: 15px 0;
+    padding: 0;
+  }
+  
+  .navbar-brand span {
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+  }
+  
+  .custom_nav-container .nav_search-btn {
+    padding: 0;
+    border: none;
+  }
+  
+  .custom_nav-container {
+    z-index: 99999;
+    padding: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  
+  .user_option {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 25px;
+  }
+  
+  .user_option a {
+    margin-right: 25px;
+    color: black;
+  }
+  
+  .user_option a span {
+    margin-left: 5px;
+  }
